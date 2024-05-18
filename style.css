@@ -77,7 +77,7 @@ a {
 }
 
 .texto-nombre {
-  font-size: 70px;
+  font-size: 60px;
   margin-bottom: 6px;
   font-weight: 900;
   color: #ecbc38;
@@ -87,7 +87,7 @@ a {
   color: #616161;
   font-size: 15px;
   margin-top: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 180px;
 }
 
 .link-seleccion {
