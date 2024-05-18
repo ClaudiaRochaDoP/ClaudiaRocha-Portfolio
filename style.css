@@ -19,9 +19,6 @@ header {
   /* z-index: 1; */
 }
 
-nav {
-}
-
 .contenedor-links {
   display: flex;
   justify-content: flex-end;
@@ -68,11 +65,14 @@ a {
   display: flex;
   flex-direction: column;
   width: 800px;
+  margin-left: 20px;
 }
 
 .texto-saludo {
   font-size: 30px;
-  margin-bottom: 6px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+
   font-weight: 900;
 }
 
@@ -80,7 +80,7 @@ a {
   font-size: 60px;
   margin-bottom: 6px;
   font-weight: 900;
-  color: #ecbc38;
+  color: #cbe200;
 }
 
 .texto-descripcion {
@@ -88,6 +88,8 @@ a {
   font-size: 15px;
   margin-top: 20px;
   margin-bottom: 180px;
+  width: 470px;
+  line-height: 25px;
 }
 
 .link-seleccion {
@@ -173,4 +175,41 @@ img {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 20px;
+}
+
+/* seccion frase */
+
+.seccion-frase {
+  background-color: #6b62ff;
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor-frase {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 800px;
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+
+.icono-quote {
+  font-size: 100px;
+  margin-bottom: 30px;
+  color: #f0f0f0;
+}
+
+q {
+  color: #f0f0f0;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+h3 {
+  color: #f0f0f0;
+  font-size: 30px;
+  font-weight: 900;
 }
