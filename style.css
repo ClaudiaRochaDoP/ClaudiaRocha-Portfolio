@@ -216,7 +216,7 @@ h3 {
 /* seccion Proyectos */
 
 .seccion-proyectos {
-  background-color: #f6f7fb;
+  background-color: #fefefe;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -282,4 +282,90 @@ h3 {
   text-align: center;
   margin-top: 80px;
   margin-bottom: 20px;
+}
+
+/* seccion Proyectos */
+
+.seccion-contacto {
+  background-color: #f6f7fb;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contenedor-info {
+  background-color: #ffffff;
+  border-radius: 15px;
+  border: 1px solid #e0e0e0;
+  padding: 75px 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  width: 80%;
+  margin-top: 100px;
+}
+
+.contenedor-contactame {
+  width: 50%;
+  margin-right: 20px;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.titulo-contactame {
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.icono-redsocial {
+  display: block;
+  width: 2.2rem;
+  height: 2.2rem;
+  background-color: #fff;
+  color: #8338ec;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  line-height: 2.2rem;
+  margin-right: 10px;
+  text-align: center;
+  transition: 0.2s;
+}
+
+.contenedor-formulario {
+  width: 50%;
+  margin-left: 20px;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.titulo-formulario {
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.texto-contactame {
+  color: #616161;
+  text-align: start;
+  font-size: 15px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: ;
+}
+
+.contenedor-redessociales {
+  margin-top: 10px;
+}
+
+.items-redes {
+  margin: 10px;
+  display: flex;
+}
+
+.text-link-redes {
+  color: #8338ec;
 }
