@@ -284,7 +284,7 @@ h3 {
   margin-bottom: 20px;
 }
 
-/* seccion Proyectos */
+/* seccion contacto */
 
 .seccion-contacto {
   background-color: #f6f7fb;
@@ -292,6 +292,7 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  align-content: center;
 }
 
 .contenedor-info {
@@ -302,7 +303,9 @@ h3 {
   display: flex;
   flex-direction: row;
   align-items: start;
-  width: 80%;
+  align-content: center;
+  justify-content: center;
+  width: 90%;
   margin-top: 100px;
 }
 
@@ -334,6 +337,28 @@ h3 {
   transition: 0.2s;
 }
 
+.contenedor-redessociales {
+  margin-top: 10px;
+}
+
+.items-redes {
+  margin: 10px;
+  display: flex;
+}
+
+.text-link-redes {
+  color: #8338ec;
+}
+
+.texto-contactame {
+  color: #616161;
+  text-align: start;
+  font-size: 15px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: ;
+}
+
 .contenedor-formulario {
   width: 50%;
   margin-left: 20px;
@@ -348,24 +373,19 @@ h3 {
   font-weight: 900;
 }
 
-.texto-contactame {
-  color: #616161;
-  text-align: start;
-  font-size: 15px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  width: ;
-}
-
-.contenedor-redessociales {
-  margin-top: 10px;
-}
-
-.items-redes {
-  margin: 10px;
+.formulario {
   display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
-.text-link-redes {
-  color: #8338ec;
+.datos-nombre-completo {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  margin-top: 50px;
+}
+
+.dato-email {
+  display: block;
 }

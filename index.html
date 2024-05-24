@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ClaudiaRocha-Portfolio</title>
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;600;800&display=swap"
       rel="stylesheet"
@@ -183,27 +183,43 @@
           <div class="contenedor-redessociales">
             <ul class="links-redessociales">
               <li class="items-redes">
-                <a href="#" target="blank" class="text-link-redes">
+                <a
+                  href="https://www.facebook.com/ClauMRochaH?mibextid=LQQJ4d"
+                  target="blank"
+                  class="text-link-redes"
+                >
                   <i class="fa-brands fa-facebook-f icono-redsocial"></i>
                   <!-- <i class="fab fa-facebook-f icono-redsocial"></i -->
                   ClaudiaRochaPhotographer
                 </a>
               </li>
               <li class="items-redes">
-                <a href="#" target="blank" class="text-link-redes">
+                <a
+                  href="https://www.instagram.com/claudiarochaphotographer?igsh=MTViZGlnbHU5c2M5eA%3D%3D"
+                  target="blank"
+                  class="text-link-redes"
+                >
                   <i class="fa-brands fa-instagram icono-redsocial"></i
                   >@ClaudiaRochaPhotographer
                 </a>
               </li>
               <li class="items-redes">
-                <a href="#" target="blank" class="text-link-redes">
+                <a
+                  href="https://github.com/ClaudiaRochaDoP"
+                  target="blank"
+                  class="text-link-redes"
+                >
                   <i class="fa-brands fa-github icono-redsocial"></i>
                   @ClaudiaRochaDoP
                 </a>
               </li>
 
               <li class="items-redes">
-                <a href="#" target="blank" class="text-link-redes">
+                <a
+                  href="https://www.linkedin.com/in/claudiarochah/"
+                  target="blank"
+                  class="text-link-redes"
+                >
                   <i class="fa-brands fa-linkedin-in icono-redsocial"></i>
                   claudiarochah
                 </a>
@@ -213,7 +229,58 @@
         </div>
         <div class="contenedor-formulario">
           <h2 class="titulo-formulario">Escribeme</h2>
-          <div class="formulario"></div>
+
+          <form class="formulario" action="#" method="#">
+            <div class="datos-nombre-completo">
+              <div>
+                <label for="name"
+                  >Nombre *
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="p.ej.: Ana"
+                  />
+                </label>
+              </div>
+              <div>
+                <label for="lastname"
+                  >Apellido *
+                  <input
+                    type="text"
+                    name="lastname"
+                    id="lastname"
+                    placeholder="p.ej.: Lopez"
+                  />
+                </label>
+              </div>
+            </div>
+
+            <div class="dato-email">
+              <label for="mail"
+                >Email *
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="p.ej.: analopez@gmail.com"
+                />
+              </label>
+            </div>
+            <div>
+              <label for="mensajed">Mensaje * </label>
+              <textarea
+                name="mensaje"
+                id="mensaje"
+                cols="30"
+                rows="10"
+                placeholder="Escriba un mensaje aquí"
+              ></textarea>
+            </div>
+            <div>
+              <button type="submit">Enviar</button>
+            </div>
+          </form>
         </div>
       </div>
     </section>
