@@ -103,10 +103,11 @@ a {
   justify-content: center;
 }
 
-img {
-  width: 500px;
-  height: 500px;
+.contenedor-imagen {
+  width: 100%;
 }
+
+
 
 /* seccion conocimientos */
 
