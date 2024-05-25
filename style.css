@@ -115,7 +115,11 @@ a {
 }
 
 .contenedor-imagen {
-  width: 100%;
+  width: 70vw;
+}
+
+img {
+  width: 50vw;
 }
 
 /* seccion conocimientos */
@@ -535,10 +539,12 @@ textarea {
   margin-top: 40px;
 }
 
+/* ----------------------------------------*/
 /* Media Queries */
 
 @media screen and (max-width: 768px) {
   /* Seccion Hola */
+
   .contenedor-links {
     max-width: 100vw;
   }
@@ -553,6 +559,14 @@ textarea {
   }
   .texto-descripcion {
     margin-bottom: 80px;
+  }
+
+  .contenedor-imagen {
+    width: 100vw;
+  }
+
+  img {
+    width: 100vw;
   }
 
   .loquehago-link {
@@ -603,7 +617,8 @@ textarea {
   .contenedor-proyectos {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
+    padding-left: 60px;
     width: 100vw;
     margin-top: 30px;
     margin-bottom: 20px;
@@ -618,7 +633,7 @@ textarea {
     margin-top: 40px;
   }
 
-  /* Seccion Proyectos */
+  /* Seccion Contactame */
 
   .contenedor-info {
     width: 95vw;
@@ -680,5 +695,52 @@ textarea {
     padding-bottom: 60px;
     padding-left: 20px;
     width: 100vw;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  /* Seccion Hola */
+  .contenedor-links {
+    max-width: 100vw;
+  }
+  .seccion-hola {
+    max-width: 100vw;
+  }
+  .card-hola {
+    max-width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  .texto-descripcion {
+    margin-bottom: 80px;
+  }
+
+  .contenedor-imagen {
+    width: 100vw;
+    margin-top: 180px;
+  }
+
+  img {
+    width: 100vw;
+  }
+
+  /* Seccion Proyectos */
+
+  .contenedor-proyectos {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    display: flex;
+    padding-left: 20px;
+  }
+
+  .card-proy {
+    width: 250px;
+    height: 250px;
+  }
+
+  .imagen-proyecto {
+    width: 230px;
+    height: 120px;
   }
 }
