@@ -617,4 +617,68 @@ textarea {
   .nombre-proyecto {
     margin-top: 40px;
   }
+
+  /* Seccion Proyectos */
+
+  .contenedor-info {
+    width: 95vw;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .seccion-contacto {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+  }
+
+  .contenedor-info {
+    width: 95vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contenedor-contactame {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .texto-contactame {
+    text-align: start;
+    width: 53vw;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  .contenedor-redessociales {
+    margin-bottom: 30px;
+  }
+
+  .contenedor-formulario {
+    width: 60vw;
+  }
+
+  .seccion-footer {
+    width: 100vw;
+  }
+
+  .contenedor-footer {
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+    width: 100vw;
+  }
 }
