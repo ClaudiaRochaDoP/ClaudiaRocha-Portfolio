@@ -634,6 +634,20 @@ textarea {
 /* ----------------------------------------*/
 /* Media Queries */
 
+@media screen and (769px <= width <= 1000px) {
+  .contenedor-info {
+    flex-direction: column;
+  }
+
+  .contenedor-contactame {
+    width: 100%;
+  }
+
+  .contenedor-formulario {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 768px) {
   /* Seccion Hola */
 
@@ -800,7 +814,7 @@ textarea {
   }
 }
 
-@media screen and (max-width: 576px) {
+@media (320px <= width <= 576px) {
   /* Seccion Hola */
 
   .menu-desktop {
@@ -822,10 +836,6 @@ textarea {
   .contenedor-imagen {
     width: 100vw;
     margin-top: 180px;
-  }
-
-  img {
-    width: 100vw;
   }
 
   /* Seccion Proyectos */
@@ -852,7 +862,4 @@ textarea {
   h2 {
     font-size: 40px;
   }
-}
-
-@media screen and (max-width: 320px) {
 }
