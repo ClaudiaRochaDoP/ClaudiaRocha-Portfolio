@@ -483,7 +483,6 @@ h3 {
   font-size: 15px;
   margin-top: 50px;
   margin-bottom: 50px;
-  width: ;
 }
 
 .contenedor-formulario {
@@ -508,7 +507,7 @@ h3 {
 
 .datos-nombre-completo {
   display: flex;
-  justify-content: ;
+
   margin-top: 30px;
   gap: 5%;
   width: 100%;
@@ -688,7 +687,6 @@ textarea {
 
   .loquehago-link {
     align-self: center;
-    margin-top: ;
   }
 
   .contenedor-texto {
