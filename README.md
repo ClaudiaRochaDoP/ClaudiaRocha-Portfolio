@@ -1,8 +1,8 @@
 # Claudia Rocha - Portfolio
 
-_URL:[li](https://claudiarocha-portfolio.netlify.app/)_
+_URL:[https://claudiarocha-portfolio.netlify.app/](https://claudiarocha-portfolio.netlify.app/)_
 
-##_Descripción:_
+## Descripción:
 
 Este es el primero proyecto que realizo,utilizando lenguajes de marcado. Va dirigido para mi formación y entrega del Primer TP para ADA ITW. Gracias a este, pude comprender conceptos en HTML5, CSS, FLEX. En el trasncurso del proyecto se presentaron varios retos como los MEDIA QUERIES. Para poder resolverlos, produndicé en la documenación y en blogs de otros programadores con experiencia.
 
